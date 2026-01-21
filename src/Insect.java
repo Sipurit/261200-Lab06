@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class Insect {
+public class Insect implements Flyable{
+    public void fly(){
+        System.out.println("Insect flying");
+    }
 }
